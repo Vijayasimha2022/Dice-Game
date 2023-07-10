@@ -1,0 +1,27 @@
+.main-container{
+    display: grid;
+    grid-template: auto/1fr;
+}
+
+.dice-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.player{
+    display: block;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px  #232931;
+    font-size: 4rem;
+    color: #4ECCA3;
+  }
+  body {
+    background-color: #393E46;
+  }
